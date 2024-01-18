@@ -48,7 +48,7 @@ def destruirPares(lista):
 
     return len(lista_final)
 
-# Ejemplos
+
 entrada1 = [2, 1, 1, 3, 4]
 salida1 = destruirPares(entrada1)
 print(f"Ejemplo 1:\nEntrada: {entrada1}\nSalida: {salida1}")

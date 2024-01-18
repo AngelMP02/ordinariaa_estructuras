@@ -35,14 +35,13 @@ def minimum_roads(n, roads):
     return required_roads
 
 
-# Lectura de entrada
+
 n, m = map(int, input().split())
 roads = [list(map(int, input().split())) for _ in range(m)]
 
-# Calcular caminos mínimos necesarios
+
 result = minimum_roads(n, roads)
 
-# Imprimir salida
 print(len(result))
 for road in result:
     print(*road)
